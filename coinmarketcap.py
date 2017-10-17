@@ -21,7 +21,7 @@ import pandas as pd
 import tabulate
 from datetime import datetime
 
-url = 'https://coinmarketcap.com/assets/views/all/'
+url = 'https://coinmarketcap.com/tokens/views/all/'
 
 # Use Pandas to return first table on page
 #
