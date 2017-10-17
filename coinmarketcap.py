@@ -5,6 +5,7 @@ coinmarketcap.py:  Script to download data from `CryptoCurrency Market Capitaliz
 
 Data is downloaded from https://coinmarketcap.com/assets/views/all/
 
+10-17-2017 : Version 0.0.1
 07-01-2017 : Created script
 """
 
@@ -21,7 +22,7 @@ import pandas as pd
 import tabulate
 from datetime import datetime
 
-url = 'https://coinmarketcap.com/assets/views/all/'
+url = 'https://coinmarketcap.com/tokens/views/all/'
 
 # Use Pandas to return first table on page
 #
